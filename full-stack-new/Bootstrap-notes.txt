@@ -1,0 +1,72 @@
+Bootstrap for response, we have to add below meta tag to head
+
+<meta name="viewport" content="width-device-width" initial-scale="1">
+
+Grid system:
+---------------
+
+classes=> container and container-fluid
+
+<div class="container-fluid">
+
+</div>
+
+we can divide the entire page with 12 columns
+
+
+
+<div class="row">
+  <div class="col-sm-6">
+        <p>  this is first division </p>
+
+  </div>
+
+  <div class="col-sm-6">
+      <p> this is second division </p>
+
+  </div>
+
+</div>
+
+example : Photo gallery
+
+Typo Graphy: --->
+
+we can change the size of the H1 content using display-1 display-2 display-3 display-4
+
+If we want to change the paragraph -> we can use the class "font-weight-bold", "font-italic"
+
+class="lead" for the paragarph --> to highlight the paragraph among others
+class="small" for the paragraph --> To change the size to small
+
+class="text-right" or  "text-left" or "text-center"
+
+text colours:
+-------
+class="text-default" --> Blue colour
+class="text-danger" --> red
+class="text-success" --> green colour
+class="text-primary"
+class="text-info" etc...
+
+Background colors:
+
+class="bg-danger"
+class="bg-primary" etc...
+
+
+Table:
+--------
+class="table"
+class="table table-striped"
+class="table table-border"
+class="table table-hover"
+class="table table-dark" --> to change the color
+
+----------
+Jumbatron: -->
+If you want show some content on gray colour box, we use jumatron
+<div class="jumbotran">
+  <h1></h1>
+  <p></p>
+  </div>

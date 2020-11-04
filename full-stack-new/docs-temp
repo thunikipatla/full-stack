@@ -1,0 +1,95 @@
+LTE/UMTS auto(PRL)
+
+publishCppcheck healthy: '10', newThreshold: '0', pattern: 'output/cppcheck-report.xml', unHealthy: '2000'
+
+mirai asset blue chep emerging fund ---> mid cap
+
+module.exports = router;
+
+window.location.href = ""
+
+
+Login to this machine c05dciivc180.dslab.ad.adp.com
+username/password: jenkins
+command to login to the SA pack
+sudo docker exec -it d7448f7a2111 /bin/bash
+
+
+ npm -v
+ npm install -g create-react-app
+ create-react-app firstapp 
+ cd firstapp
+ npm start
+
+ sed -i "s/db/\`/g" a.txt
+ sed -i "s/db/@'/g" a.txt
+ sed -i "s/db/@'\`/g" a.txt
+ sed -i "s/db/@'\`\`/g" a.txt
+
+
+ class App extends React.Component{  
+    render(){  
+  return( 
+ <div> 
+      <h1>This is my react first app</h1> 
+        <h2>React is simple</h2>  
+ <Login/> 
+ <Footer/> 
+ </div> 
+ ) 
+ } 
+ }  
+ export default App; 
+
+
+ ---------
+import React from 'react';
+
+class App extends React.Component{
+
+render(){
+
+  return(
+        <div>
+               <h1>This is my react first app</h1>
+               <h2>React is simple</h2>
+               <div>Hi We have started</div>
+
+
+        </div>
+  )
+}
+}
+export default App; 
+
+
+----------
+import React from 'react';
+
+class Register extends React.Componet {
+    render() {
+        return (
+            <div>
+
+            <h1> This is Register </h1>
+            </div>
+        )
+    }
+}
+
+export default Register;
+-----
+
+--Swagger --->
+https://api.luxyride.com/api-docs/#/Affiliate/get_affiliate_ 
+
+swagger.io
+
+https://github.com/brian-childress/node-autogenerate-swagger-documentation
+
+
+-------
+sample api http://www.omdbapi.com/?t=avengers&apikey=1afef20d
+
+
+mongo practice commands--> w3 resources for mongoDB 

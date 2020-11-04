@@ -1,0 +1,32 @@
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <h1 id="fullname"></h1>
+    <h1 id="adharcardnumber"></h1>
+    <h1 id="mobilenumber"></h1>
+    <h1 id="address"></h1>
+    <h1 id="accountnumber"></h1>
+    <h1 id="accountbalance"></h1>
+
+    <button>Fund Transfer</button>
+
+
+</body>
+
+<script src="index.js"></script>
+
+<script>
+    CurrentUser = GetCurrentUser();
+    document.getElementById('fullname').innerHTML = "fullname :" + CurrentUser.fullname;
+    document.getElementById('adharcardnumber').innerHTML = "adharcardnumber :" + CurrentUser.adharcardnumber;
+    document.getElementById('mobilenumber').innerHTML = "mobilenumber :" + CurrentUser.mobilenumber;
+    document.getElementById('address').innerHTML = "address :" + CurrentUser.address;
+    document.getElementById('accountnumber').innerHTML = "accountnumber :" + CurrentUser.accountnumber;
+    document.getElementById('accountbalance').innerHTML = "accountbalance :" + CurrentUser.accountbalance;
+</script>
+
+</html>

@@ -1,0 +1,214 @@
+<html>
+
+<head>
+
+</head>
+
+<body id="body">
+
+
+
+</body>
+
+<script>
+    var form = document.createElement('form');
+
+    var userlabel = document.createElement('label');
+
+    userlabel.setAttribute('for', 'username');
+    userlabel.innerHTML = "User Name";
+
+    var x = document.createElement('BR');
+
+    userlabel.appendChild(x);
+
+    // console.log(userlabel);
+
+    var username = document.createElement('input');
+
+    username.type = "text";
+    username.size = 30;
+    username.placeholder = "Username";
+    username.style.height = "30";
+
+
+    var contactnumberlabel = document.createElement('label');
+
+    contactnumberlabel.innerHTML = "Primary Contact number"
+    var y = document.createElement('BR');
+    var z = document.createElement('BR');
+
+    var contactnumber = document.createElement('input');
+    contactnumber.type = 'text';
+    contactnumber.size = '30';
+    contactnumber.placeholder = "Primary Contact Number";
+    contactnumber.style.height = "30";
+
+    var a = document.createElement('BR');
+
+    var previouslabel = document.createElement('label');
+
+    previouslabel.innerHTML = "Previously Employed by Cognizant?"
+
+    var b = document.createElement('BR');
+
+    var c = document.createElement('BR');
+
+    var previousemp = document.createElement('select');
+    previousemp.style.width = "200";
+    previousemp.style.height = "30";
+
+    var previousempOption1 = document.createElement('option');
+
+    previousempOption1.innerText = "Please Select";
+
+    var previousempOption2 = document.createElement('option');
+
+    previousempOption2.innerText = "yes";
+
+    var previousempOption3 = document.createElement('option');
+
+    previousempOption3.innerText = "No";
+
+
+
+    previousemp.appendChild(previousempOption1);
+    previousemp.appendChild(previousempOption2);
+    previousemp.appendChild(previousempOption3);
+
+
+    var d = document.createElement('BR');
+
+    var e = document.createElement('BR');
+
+    var empidlabel = document.createElement('label');
+
+    empidlabel.innerHTML = "If Yes Employee ID"
+
+    var f = document.createElement('BR');
+    var g = document.createElement('BR');
+
+
+    var empid = document.createElement('input');
+
+    empid.type = "text";
+    empid.style.height = "30";
+    empid.size = "30";
+
+    var explabel = document.createElement('label');
+    explabel.innerHTML = "Total Experience"
+
+    var h = document.createElement("BR");
+    var i = document.createElement("BR");
+
+    var j = document.createElement("BR");
+
+
+
+    var exp = document.createElement('select');
+
+    exp.style.width = "200";
+    exp.style.height = "30";
+
+    var expOption1 = document.createElement('option');
+    expOption1.innerHTML = "0";
+
+    var expOption2 = document.createElement('option');
+    expOption2.innerHTML = "1";
+
+    var expOption3 = document.createElement('option');
+    expOption3.innerHTML = "2";
+
+    var expOption4 = document.createElement('option');
+    expOption4.innerHTML = "3";
+
+    exp.appendChild(expOption1);
+    exp.appendChild(expOption2);
+    exp.appendChild(expOption3);
+    exp.appendChild(expOption4);
+
+    var k = document.createElement("BR");
+    var l = document.createElement("BR");
+    var m = document.createElement("BR");
+
+
+    var skilllabel = document.createElement('label');
+
+    skilllabel.innerHTML = "Skills";
+
+    var skilltext = document.createElement('textarea');
+    skilltext.style.height = "30"
+    skilltext.style.width = "200"
+
+    var n = document.createElement("BR");
+    var o = document.createElement("BR");
+
+
+    var button = document.createElement('button');
+
+    button.innerHTML = "NEXT"
+
+    button.style.widhth = "500";
+    button.style.height = "30";
+    button.style.backgroundColor = "green";
+    button.style.color = "white"
+
+
+    // Form section
+
+    form.appendChild(userlabel);
+
+
+    form.appendChild(username);
+
+    form.appendChild(y);
+    form.appendChild(z);
+    form.appendChild(contactnumberlabel);
+
+    form.appendChild(a);
+
+    form.appendChild(contactnumber);
+
+    form.appendChild(b);
+    form.appendChild(c);
+
+    form.appendChild(previouslabel);
+
+    form.appendChild(d);
+    form.appendChild(previousemp);
+    form.appendChild(e);
+    form.appendChild(f);
+
+    form.appendChild(empidlabel);
+    form.appendChild(g);
+
+    form.appendChild(empid);
+
+    form.appendChild(h);
+    form.appendChild(i);
+
+    form.appendChild(explabel);
+    form.appendChild(j);
+    form.appendChild(exp);
+    form.appendChild(k);
+    form.appendChild(l);
+
+    form.appendChild(skilllabel);
+    form.appendChild(m);
+
+    form.appendChild(skilltext);
+    form.appendChild(n);
+    form.appendChild(o);
+
+    form.appendChild(button);
+
+
+
+
+    // Body Section---------
+
+    var body = document.getElementById('body');
+    body.appendChild(form);
+</script>
+
+</html>

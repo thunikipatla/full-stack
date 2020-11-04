@@ -1,0 +1,46 @@
+Tutorworld application:
+
+Need to create the below APIs,
+
+Tutor registartion, tutor login, get all tutors--> done
+when tutor login, he should able to see his profile --> for this we need to create the profile of tutor--> for this need to create the route to get
+all details of respective tutor, we can get those details by JWT token(need to decode that token) --> Done
+
+forgot password, update password-- > we can work later
+
+parent registration, parent Login ---> Done
+
+once parent Login, he should able to see all the tutors available in the site. --> this we can implement from UI.
+
+
+
+---------------
+My own E-Commerce APP:
+
+need to create the registration page --> first name, last name, mobile, email, password, Address
+Need to create the Login page
+
+I need to create the add product page for only admin user, so that we can add products to application, 
+
+Once user logged in--> I need to show all the products (images with prices) in a page with ADD button on each and every product, if he hit on ADD--> it should get updated to
+his cart.
+
+or else I need to create the page with all products with prices, and in the same page, we can provide the one drop down to below items
+  1) Item
+  2) how many units/kgs
+  3) price --> it should be updated automatically.
+
+--------------
+Redux notes:
+
+reducers : it is used maintain the application data and contribute to application state. And all reducers are child of root reducer which is in app
+
+containers: containers are used when your component want to react with redux to get the data
+
+store: It will store the application state.
+
+action: When user performs a action, i.e., click on a button, hovering a mouse, etc
+
+work flow:
+------
+component ---> container --> action --> reducer --> root reducer --> store ---> container --> component
